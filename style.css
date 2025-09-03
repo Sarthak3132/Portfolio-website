@@ -272,7 +272,8 @@ section {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
 }
 
 .about-details-container {
@@ -304,6 +305,7 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    height: fit-content;
 }
 
 .section-container{
