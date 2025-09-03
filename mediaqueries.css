@@ -39,6 +39,11 @@
     .about-containers {
         flex-wrap: wrap;
         margin-top: 0;
+        justify-content: center;
+    }
+    .details-container {
+        min-width: 280px;
+        margin-bottom: 1rem;
     }
 }
 
